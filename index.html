@@ -9,11 +9,24 @@
 </head>
 <body class="m-0 p-0 w-full h-screen box-border bg-no-repeat bg-gradient-to-tr from-red-400 via-yellow-600 to-red-400">
 
+    <div class="flex flex-col absolute text-white h-auto score">
+        <p class="flex justify-center p-2"><b>SCORE</b></p>
+        <table class=" bg-white bg-opacity-25 rounded-md mr">
+            <tr class="border-b-2">
+                <th class="p-2 border-r-2">Player X</th>
+                <th class="p-2">Player O</th>
+            </tr>
+            <tr class="">
+                <td class="scoreX text-center p-2 border-r-2"></td>
+                <td class="scoreY p-2 mx-"></td>
+            </tr>
+        </table>
+    </div>
+
+
     <div class="wrapper w-full flex relative flex-col h-full  justify-center items-center">
 
-        <p class="header p-3 text-white absolute border-2 mx-auto top-6 border-white bg-white bg-opacity-25 rounded-md">
-             
-        </p>
+        <p class="header p-3 text-white absolute border-2 mx-auto top-6 border-white bg-white bg-opacity-25 rounded-md"></p>
 
         <div class="field grid w-[90%] p-6 max-w-[20rem] bg-white bg-opacity-25 text-white border-2 border-white aspect-square 
                     rounded-md grid-cols-3 grid-rows-3">
